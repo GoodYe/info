@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: "NanumBarunGothic", sans-serif !important;
 }
 
 p {
@@ -32,7 +33,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "NanumBarunGothicLight", sans-serif !important;
     font-weight: 700;
 }
 
@@ -98,7 +99,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "NanumBarunGothicLight", sans-serif !important;
     font-size: 2em;
     font-weight: 700;
 }
@@ -206,19 +207,15 @@ section.success {
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
-    position: absolute;
+
+#portfolio .portfolio-item .portfolio-link .itemInfo {
+    position: relative;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba(24,188,156,.9);
+    height: 30em;    
+    background: grey;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
