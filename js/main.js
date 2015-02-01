@@ -10,7 +10,7 @@ function showModal(obj) {
     var title = $(obj).children('.itemInfo').children('.item_title').children('.itemTitleString').text();
     $('#projectTitle').text(title);
     //$('#portfolioModal').modal('show');
-    var jqxhr = $.getJSON("/path/portfolio.json", function() {
+    var jqxhr = $.getJSON("./portfolio.json", function() {
       alert("success");
     })
     .success(function() { alert("second success"); })
