@@ -10,8 +10,8 @@ function showModal(obj) {
     var title = $(obj).children('.itemInfo').children('.item_title').children('.itemTitleString').text();
     $('#projectTitle').text(title);
     //$('#portfolioModal').modal('show');
-    $.getJSON( "path/portfolio.json", function( data ) {
-        alert(data);        
+    $.getJSON( "../path/portfolio.json", function( data ) {
+        console.log(data);
     });    
     
     
