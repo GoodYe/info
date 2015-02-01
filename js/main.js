@@ -22,13 +22,22 @@ function showModal(obj) {
             mainObj = hotelist;
             break;
         case '위패스 어드민' : 
+            return alert("상세설명 넣는중!");
             break;
         case '위패스 점주앱' : 
+            return alert("상세설명 넣는중!");
             break;
+        case '이포포인트' : 
+            return alert("상세설명 넣는중!");
+            break;    
+        case 'StartupLap 자막 Sync' : 
+            return alert("상세설명 넣는중!");
+            break;            
         case '어이브라더' : 
             mainObj = uheebrother;        
             break;
         case '어이시스터' : 
+            return alert("상세설명 넣는중!");
             break;            
     };
     $('#dev_client').html(mainObj.devClient);
@@ -46,7 +55,6 @@ function showModal(obj) {
     $('#regdate').text(mainObj.regdate );
     
     $('#portfolioModal').modal('show');
-    mainObj = {};
 }
 
 ///////////////////////////////////////////////////////////////////// potfolio object /////////////////////////////////////////////////////////////////////
